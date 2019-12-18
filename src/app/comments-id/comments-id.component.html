@@ -1,0 +1,11 @@
+<!-- Traz o imput de pesquisa de ID  -->
+<input type="number" placeholder="Digite o ID" [(ngModel)]="id">
+<input type="button" (click)="seachClick()" value="Buscar"><br><br>
+
+<h1>Resultado ID</h1>
+User ID: {{commentsId.postId}}<br/>
+ ID: {{commentsId.Id}}<br/>
+ Nome: {{commentsId.name}}<br/>
+ email: {{commentsId.email}}<br/>
+ body: {{commentsId.body}}<br/>
+ 

@@ -1,0 +1,29 @@
+<!-- <h1>Quantidade de usuarios e comentários: {{comments.length}}</h1> -->
+
+
+<br>
+<table border="1px">
+<th>
+    Post ID
+</th>
+<th>
+    ID
+</th>
+<th>
+    Nome
+</th>
+<th>
+    email
+</th>
+<th>
+    body
+</th>
+<tr *ngFor="let items of comments">
+    <td>{{items.postId}}</td>
+    <td>{{items.Id}}</td>
+    <td>{{items.name}}</td>
+    <td>{{items.email}}</td>
+    <td>{{items.body}}</td>
+</tr>
+</table>
+<br>
